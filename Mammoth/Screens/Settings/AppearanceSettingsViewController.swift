@@ -374,7 +374,7 @@ class AppearanceSettingsViewController: UIViewController, UITableViewDataSource,
                 } else if GlobalStruct.displayName == .usernameOnly {
                     cell.detailTextLabel?.text = NSLocalizedString("settings.appearance.names.username", comment: "")
                 } else if GlobalStruct.displayName == .usertagOnly {
-                    cell.detailTextLabel?.text = NSLocalizedString("generic.none", comment: "")
+                    cell.detailTextLabel?.text = NSLocalizedString("settings.appearance.names.usertag", comment: "")
                 } else {
                     cell.detailTextLabel?.text = "None" // .none
                 }
